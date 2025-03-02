@@ -1,0 +1,51 @@
+<!-- HTML Code -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light/Dark Mode Toggle</title>
+    <link rel="stylesheet" href="first.css">
+</head>
+<body>
+    <h2>Light/Dark Mode</h2>
+    <p>Lorem, ipsum dolor.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <button id="colorSet"><span id="icon">🌙</span></button>
+    <script src="first.js"></script>
+</body>
+</html>
+
+
+<!-- CSS Code -->
+<!-- body {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+button {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+} -->
+
+<!-- JS Code -->
+<!-- let btnE = document.querySelector("#colorSet");
+let iconE = document.querySelector("#icon");
+let bodyE = document.querySelector("body");
+
+btnE.addEventListener("click", () => {
+    let currentBg = window.getComputedStyle(bodyE).backgroundColor;
+
+    if (currentBg === "rgb(0, 0, 0)") { // If Dark Mode
+        bodyE.style.backgroundColor = "white";
+        bodyE.style.color = "black";
+        iconE.innerHTML = "☀️"; // Change to Sun Icon
+    } else { // If Light Mode
+        bodyE.style.backgroundColor = "black";
+        bodyE.style.color = "white";
+        iconE.innerHTML = "🌙"; // Change to Moon Icon
+    }
+}); -->
