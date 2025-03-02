@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('background-image.png') no-repeat center center/cover;
+    color: #fff;
+}
+
+.modify {
+    font-size: 1.10rem;
+    margin-left: 0.9rem;
+}
+.center {
+    text-align: center;
+    line-height: 2.5rem;
+}
+
+.container {
+    background-color: #fff;
+    color: black;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 30vh;
+    width: 100vh;
+    border: 2px solid black;
+}
+
+form {
+    margin: 2rem 0 1rem 0;
+}
+
+form select, button, input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+
+form input {
+    border: 1px solid lightgray;
+    font-size: 1.2rem;
+    height: 3rem;
+    padding-left: 1rem;
+}
+
+.drop-down {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.select-container img {
+    width: 30px;
+    height: 30px;
+    margin-left: 1rem;
+}
+
+.drop-down i {
+    font-size: 2rem;
+    margin-top: 1rem;
+    color: rgb(76, 71, 71);
+}
+
+.select-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    height: 3rem;
+    border: 1px solid lightgray;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.select-container select {
+    font-size: 1rem;
+    margin-left: 0.25rem;
+}
+
+.msg {
+    font-size: 1.25rem;
+    margin-top: 3.5rem;
+    margin-left: 1rem;
+    color: blue;
+}
+
+#converter-btn {
+    background-color: black;
+    color: white;
+    height: 3.5rem;
+    width: 50%;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 3rem 0 0 11rem;
+    border: none;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+#converter-btn:hover {
+    border: 2.5px solid black;
+    font-weight: 550;
+}
+
+
+
